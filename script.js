@@ -40,21 +40,21 @@ let json = [
 
 // stringify method:
 
-console.log("This is STRINGIFY METHOD output");
+console.log("\n This is STRINGIFY METHOD output \n ");
 
 let ob1 = JSON.stringify(json);
 console.log(ob1);
 
 // parse method:
 
-console.log("This is PARSE METHOD output");
+console.log("\n This is PARSE METHOD output \n ");
 
 let ob2 = JSON.parse(ob1);
 console.log(ob2);
 
 // for loop:
 
-console.log("This is FOR LOOP output");
+console.log("\n This is FOR LOOP output \n ");
 
 for (var i = 0; i < json.length; i++) {
 
@@ -80,7 +80,7 @@ for (var i = 0; i < json.length; i++) {
 
 // Print property names of object
 
-console.log("This is FOR IN output");
+console.log("\n This is FOR IN output \n ");
 
 for (var attribute in json) {
   console.log(attribute);            // o/p ==> 0 1 2
@@ -125,7 +125,7 @@ for (attribute in shark) {
 
 // Print out each type of json:
 
-console.log("This is FOR OF output");
+console.log("\n This is FOR OF output \n ");
 
 
 for (let jsn of json) {
@@ -164,7 +164,7 @@ for (let String of Strings) {
 //  forEach:
 
 
-console.log("This is FOR EACH output");
+console.log("\n This is FOR EACH output \n ");
 
 
 json.forEach((jsn) => {

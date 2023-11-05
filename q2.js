@@ -1,3 +1,6 @@
+
+// 2.Create Your Own Resume Data in JSON formate
+
 let Resume = {
 
   "Name": "Vinitha",
@@ -51,5 +54,7 @@ let Resume = {
 
 }
 
+
+console.log("\n OUTPUT FOR Create Your Own Resume Data in JSON formate");
 
 console.log(Resume);
